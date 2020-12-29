@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgb(250, 213, 144),rgb(245, 183, 68), rgb(250, 213, 144) );
+}
+
+#header-nav {
+    background-color: brown;
+    margin:0px;
+    padding: 0px;
+}
+
+div #navbar-brand {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#nav-list a {
+    color: black;
+    
+}
+
+#nav-list a:hover {
+    background: peru;
+}
+
+#main-content {
+    box-sizing: border-box;
+}
+
+.title2 {
+    height:750px;
+}
+
+div > section {
+    clear: left;
+    padding-top: 1%;
+    background-color: teal;
+}
+
+.nav li a {
+    color:black;
+    font-size: 20px;
+} 
+
+h1 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom:25px;
+}
+
+#titles div h2 {
+    font-size: 25px;
+    color: white;
+}
+
+.title2 {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+div section p {
+    color: rgb(200, 209, 209);
+    font-size: 17px;
+}
+
+/* Barra aside Menu - Inicio */
+.contenedor_menu {
+    width:70%;
+    margin:auto;
+  
+}
+.menu2 {
+    display: block;
+    color:white;
+    background-color: brown;
+    font-size: 20px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding:10px;
+    border-radius: 5px;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+.menu2:hover {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: white;
+    color:brown;
+    width:100%;
+    
+}
+
+/* Barra aside Menu - Fin */
+
+
+footer {
+    background-color: rgb(180, 180, 57);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+
+
+/********** Mobile Devices Only ********/
+@media (max-width: 768px) {
+
+
+    
+.title2 {
+    width: 70%;
+    margin: auto;
+}
+
+div #navbar-brand {
+    margin-left: 2%;
+}
+
+.title2 {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+}
+
+
+
